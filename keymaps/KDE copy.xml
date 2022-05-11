@@ -1,0 +1,17 @@
+<keymap version="1" name="KDE copy" parent="Default for KDE">
+  <action id="ExternalSystem.ProjectRefreshAction" />
+  <action id="ForceOthersToFollowAction" />
+  <action id="QuickImplementations" />
+  <action id="SelectVirtualTemplateElement" />
+  <action id="Tool_External Tools_black">
+    <keyboard-shortcut first-keystroke="shift ctrl i" />
+  </action>
+  <action id="Tool_External Tools_flake8">
+    <keyboard-shortcut first-keystroke="shift ctrl numpad8" />
+  </action>
+  <action id="Tool_External Tools_isort">
+    <keyboard-shortcut first-keystroke="shift alt o" />
+    <keyboard-shortcut first-keystroke="shift ctrl o" />
+  </action>
+  <action id="context.load" />
+</keymap>

@@ -1,0 +1,11 @@
+<application>
+  <component name="ChangelistSettings">
+    <option name="active" value="true" />
+    <option name="fieldNames">
+      <list>
+        <option value="issueKey" />
+      </list>
+    </option>
+    <option name="separator" value="Hypen" />
+  </component>
+</application>
