@@ -11,7 +11,7 @@
     <keyboard-shortcut first-keystroke="shift ctrl i" />
   </action>
   <action id="Tool_External Tools_flake8">
-    <keyboard-shortcut first-keystroke="shift ctrl numpad8" />
+    <keyboard-shortcut first-keystroke="shift ctrl 0" />
   </action>
   <action id="Tool_External Tools_isort">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
