@@ -81,6 +81,7 @@ Program
 
 Arguments
 : -m flake8 --config $ProjectFileDir$/.flake8 $FilePath$
+
 Working directory $ProjectFileDir$
 
 Advanced Options:
@@ -91,7 +92,7 @@ Advanced Options:
 
 Output filters:     $FILE_PATH$\:$LINE$\:$COLUMN$\:.*⏎$FILE_PATH$\:$LINE$\:.*
 
-## using external tools
+## Using external tools
 Tools > External Tools
 : run an external tool
 
