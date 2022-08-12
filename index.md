@@ -2,7 +2,7 @@
 **Help > Find Action**
 
 # Aim of this document
-This is an opinionated list of Pycharm configurations and tools that are useful on an everyday basis whn working on paylead_flask project.
+This is an opinionated list of Pycharm configurations and tools that are useful on an everyday basis when working on paylead_flask project.
 It is far from being an exhaustive list of pycharm functionalities
 There is a keyboard shortcut for mostly everything in pycharm.
 Shortcut are purposely not indicated because default values change between environments and shortcuts are configurable.
