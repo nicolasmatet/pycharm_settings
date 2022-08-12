@@ -4,8 +4,9 @@
       <CommitMessageValidationConfig>
         <option name="regexConfig">
           <RegexConfig>
-            <option name="expression" value="\((?:fix|chore|docs|feat|refactor|style|test)\)(?:\(.*\))?: [A-Z].*\s#\d+" />
-            <option name="testInput" value="(fix): Bug #123" />
+            <option name="expression" value="(?:chore|ci|docs|feat|fix|merge|perf|refactor|revert|style|test)(?:\(.+\))?:\s.+(\n(\n.+(.|\n)*.+\n?)?)(\n(?:see|fix):\s.+\n?)*?\Z" />
+            <option name="multiline" value="true" />
+            <option name="testInput" value="fix(beta): test&#10;&#10;dkjfhksdjhf&#10;kjddjkf&#10;" />
           </RegexConfig>
         </option>
       </CommitMessageValidationConfig>
