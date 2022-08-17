@@ -2,7 +2,7 @@
   <component name="DefaultFont">
     <option name="VERSION" value="1" />
     <option name="FONT_FAMILY" value="IBM Plex Mono" />
-    <option name="FONT_REGULAR_SUB_FAMILY" value="SemiBold" />
+    <option name="FONT_REGULAR_SUB_FAMILY" value="Medium" />
     <option name="FONT_BOLD_SUB_FAMILY" value="Bold" />
   </component>
 </application>
