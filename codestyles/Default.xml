@@ -1,5 +1,8 @@
 <code_scheme name="Default" version="173">
   <SqlCodeStyleSettings version="6">
+    <option name="KEYWORD_CASE" value="2" />
+    <option name="TYPE_CASE" value="1" />
+    <option name="CUSTOM_TYPE_CASE" value="1" />
     <option name="BUILT_IN_CASE" value="0" />
   </SqlCodeStyleSettings>
   <TypeScriptCodeStyleSettings version="0">
