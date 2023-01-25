@@ -14,10 +14,7 @@
     <keyboard-shortcut first-keystroke="shift alt minus" />
     <keyboard-shortcut first-keystroke="shift ctrl 9" />
   </action>
-  <action id="Tool_External Tools_flake8">
-    <keyboard-shortcut first-keystroke="shift ctrl 0" />
-  </action>
-  <action id="Tool_External Tools_isort">
+  <action id="Tool_External Tools_ruff">
     <keyboard-shortcut first-keystroke="shift ctrl o" />
   </action>
   <action id="context.load" />
