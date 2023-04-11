@@ -1,5 +1,8 @@
 <application>
   <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="clickhouse" driver-class="com.clickhouse.jdbc.ClickHouseDriver">
+      <artifact id="ClickHouse" name="ClickHouse" use="true" version="0.4.0" />
+    </driver>
     <driver id="postgresql">
       <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.4.0" />
     </driver>
