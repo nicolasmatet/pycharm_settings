@@ -5,14 +5,57 @@
         <option name="enabled" value="true" />
         <option name="regexConfig">
           <RegexConfig>
-            <option name="expression" value="(?:chore|ci|docs|feat|fix|merge|perf|refactor|revert|style|test)(?:\(.+\))?:\s.+(\n(\n.+(.|\n)*.+\n?)?)(\n(?:see|fix):\s.+\n?)*?\Z" />
+            <option name="expression" value="(?:chore|ci|docs|feat|fix|merge|perf|refactor|revert|style|test)(?:\(.+\))?:\s[A-Z]+.+(\n(\n.+(.|\n)*.+\n?)?)(\n(?:see|fix):\s.+\n)+\Z" />
             <option name="multiline" value="true" />
-            <option name="testInput" value="fix(beta): test&#10;&#10;dkjfhksdjhf&#10;kjddjkf&#10;" />
+            <option name="testInput" value="fix(beta): Test&#10;&#10;dkjfhksdjhf&#10;kjddjkf&#10;&#10;see: PE-14234&#10;" />
           </RegexConfig>
         </option>
       </CommitMessageValidationConfig>
     </option>
     <option name="commitMessageValidationEnabled" value="true" />
+    <option name="repositoriesConfig">
+      <RepositoriesConfig>
+        <configForRepoType>
+          <entry type="BITBUCKET_SERVER">
+            <RepoTypeConfig>
+              <option name="fetchUriGlobs">
+                <list>
+                  <option value="" />
+                </list>
+              </option>
+            </RepoTypeConfig>
+          </entry>
+          <entry type="BITBUCKET_CLOUD">
+            <RepoTypeConfig>
+              <option name="fetchUriGlobs">
+                <list>
+                  <option value="" />
+                </list>
+              </option>
+            </RepoTypeConfig>
+          </entry>
+          <entry type="GITHUB">
+            <RepoTypeConfig>
+              <option name="fetchUriGlobs">
+                <list>
+                  <option value="" />
+                </list>
+              </option>
+            </RepoTypeConfig>
+          </entry>
+          <entry type="GITLAB">
+            <RepoTypeConfig>
+              <option name="fetchUriGlobs">
+                <list>
+                  <option value="" />
+                </list>
+              </option>
+            </RepoTypeConfig>
+          </entry>
+        </configForRepoType>
+      </RepositoriesConfig>
+    </option>
+    <option name="startupNotificationVersion" value="1" />
     <option name="version" value="6" />
   </component>
 </application>
