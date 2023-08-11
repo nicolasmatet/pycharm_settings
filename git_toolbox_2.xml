@@ -12,7 +12,6 @@
         </option>
       </CommitMessageValidationConfig>
     </option>
-    <option name="commitMessageValidationEnabled" value="true" />
     <option name="repositoriesConfig">
       <RepositoriesConfig>
         <configForRepoType>
